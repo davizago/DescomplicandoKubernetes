@@ -20,7 +20,7 @@
 
 O **Deployment** é um recurso com a responsabilidade de instruir o Kubernetes a criar, atualizar e monitorar a saúde das instâncias de suas aplicações.
 
-Um Deployment é o responsável por gerenciar o seu **ReplicaSet** (que iremos falar logo menos), ou seja, o Deployment é quem vai determinar a configuração de sua aplicação e como ela será implementada. O Deployment é o controller que irá cuidar, por exemplo, uma instância de sua aplicação por algum motivo for interrompida. O Deployment controller irá identificar o problema com a instância e irá criar uma nova em seu lugar.
+Um Deployment é o responsável por gerenciar o seu **ReplicaSet** (que iremos falar logo menos), ou seja, o Deployment é quem vai determinar a configuração de sua aplicação e como ela será implementada. O Deployment é o controller que irá cuidar, por exemplo, quando uma instância de sua aplicação por algum motivo for interrompida. O Deployment controller irá identificar o problema com a instância e irá criar uma nova em seu lugar.
 
 Quando você utiliza o _kubectl create deployment_, você está realizando o deploy de um objeto chamado Deployment. Como outros objetos, o Deployment também pode ser criado através de um arquivo YAML ou de um JSON, conhecidos por manifestos.
 
